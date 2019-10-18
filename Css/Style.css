@@ -1,0 +1,230 @@
+body {
+    font-family: 'Noto Serif', serif;
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    padding-bottom: 30px;
+}
+#titlepic{
+    margin-top: 30px;
+    width: 100%;
+}
+
+header img {
+    float: left;
+    padding: 1px;
+}
+#choco-pizza{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-position: center;
+border-left-width: 100%;
+    width: 100%;
+    transition: 2s;
+} 
+#choco-pizza:hover {
+    background-position: center;
+width: 100%;
+height: 100%;
+transform: scale(1.1);
+padding-bottom: 30px;
+padding-top: 30px;
+}
+
+#fb,#twit,#google,#insta,#flic,#pint,#rss,#mail{
+    transition: 600ms;
+    cursor: pointer;
+} 
+#fb:hover,#twit:hover,#google:hover,#insta:hover,#flic:hover,#pint:hover,#rss:hover,#mail:hover {
+
+transform: scale(1.3);
+padding-top: 2px;
+padding-left: 3px;
+padding-right: 3px;
+
+}
+
+#topHead {
+    font-family: 'Yellowtail', cursive;
+display: contents;
+}
+#logo{
+    width: 6%;
+}
+nav {
+    float: right;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 200%;
+    margin-bottom: 0 auto;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+h5 {
+    font-family: 'Oswald', sans-serif;
+    display: block;    
+    margin-top: 0 auto;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    width:960px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Strait', sans-serif;
+    font-size: 65%;
+     margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
+
+.articlehead {
+margin-top: 60px;
+margin-bottom: 15px;
+}
+
+#print {
+    float: right;
+    cursor: pointer;
+    transition: .8s;
+
+}
+
+#printpic{
+    width: 20px;
+}
+#print:hover,#printText:hover{
+    color: brown;
+    transform: scale(1.1);
+}
+#printText {
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#lineth{
+    text-decoration: line-through;
+}
+#cake {
+    width: 100%;
+}
+
+.table {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+
+
+#table1 {
+    float: right;
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 150%;
+}
+
+#table2 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 35%;
+    right: -25%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    float: left;
+    font-size: 150%;
+
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+ li {
+    padding-left: 0;
+    margin-left: 0;
+    transition: 350ms;
+
+}
+li:hover,h1#topHead:hover{
+    color: brown;
+text-shadow: 3px 3px 5px #4b4474,
+             6px 6px 10px orangered;
+             transform: scale(1.1);
+}
+button:hover{
+    text-shadow: 3px 3px 5px beige;
+    background-color: gray;
+    color: brown;
+    font-size: 70%;
+    transform: scale(1.1);
+    font-family: cursive;
+}
+li button {
+    margin-right: 2em;
+}
+
+
+#van {
+    float: left;
+    transition: 0.8s;
+    padding-top: 10px;
+}
+#footLogo{
+    display: block;
+    margin-left: 46%;
+    text-align: center;
+    padding: 12px;
+    margin-top: 80px;
+}
+
+footer button {
+    float: right;
+    padding: 20px 30px;
+    background-color: brown;
+    color: white;
+    font-size: 60%;
+    cursor: pointer;
+    transition: .8s;
+    
+}
+#copyright {
+    text-align: center;
+    color: gray;
+}
+#vanessa{
+    padding-left:80px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 120%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#van1{
+    padding-left:80px;
+margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+#van:hover{
+    transform: scale(1.2);
+}
