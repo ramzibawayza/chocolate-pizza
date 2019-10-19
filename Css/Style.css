@@ -11,7 +11,23 @@ header {
     margin-top: 30px;
     width: 100%;
 }
+#linegray{
+    display: block;
+    width: 100%;
+    height: 13px;
+    margin-top: 30px;
+    margin-bottom: -70px;
+    background-image: repeating-linear-gradient(-45deg,white,white 1px, #bfb8be 1px,#bfb8be 2px);
+}
+#linegray1{
+    display: block;
+    width: 100%;
+    height: 13px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
+    background-image: repeating-linear-gradient(-45deg,white,white 1px, #bfb8be 1px,#bfb8be 2px);
+}
 header img {
     float: left;
     padding: 1px;
